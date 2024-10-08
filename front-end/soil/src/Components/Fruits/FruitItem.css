@@ -1,0 +1,51 @@
+.product-item {
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+
+    position: relative;
+    display: flex; /* Add display flex to align items horizontally */
+    flex-direction: column; /* Set flex-direction to column */
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+  }
+  
+
+.food-item-price {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.product-image-container {
+    position: relative;
+}
+
+.add {
+    width: 35px;
+    height: 35px; /* Set height to match width for a circular appearance */
+    position: absolute; /* Change position to absolute */
+    bottom: 10px; /* Adjust bottom position */
+    left: 50%; /* Position the add button in the center */
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.food-item-counter {
+    position: absolute;
+    bottom: 100px; /* Adjust bottom position */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.plusOne,
+.minusOne {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transform: translate(125px, -50px); /* Adjust the values as needed */
+  padding: 10px;
+}

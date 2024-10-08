@@ -1,0 +1,48 @@
+.text-zinc-400 {
+    color: #a1a1aa;
+  }
+  
+  .hover\\:text-white:hover {
+    color: #ffffff;
+  }
+  
+  .bg-zinc-900 {
+    background-color: #18181b;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .space-x-4 > :not(:last-child) {
+    margin-right: 1rem; /* 16px */
+  }
+  
+  .p-4 {
+    padding: 1rem; /* 16px */
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .h-10 {
+    height: 150px; /* 40px */
+  }
+  
+  .w-10 {
+    width: 2.5rem; /* 40px */
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; /* 18px */
+  }
+  

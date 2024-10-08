@@ -1,0 +1,115 @@
+.reviewPage {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #667085; /* Light neutral background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.reviewPage h2 {
+  color: #333; /* Dark neutral color for the header */
+  border-bottom: 2px solid #ddd; /* Light border to separate the header */
+  padding-bottom: 10px;
+  text-align: center; /* Center-align the text */
+  width: 100%; /* Ensure it takes up full width of its container */
+}
+
+.reviewPage ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.reviewPage li {
+  background-color: #434a57; /* White background for each list item */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd; /* Light border for list items */
+  border-radius: 5px;
+  width: 45%; /* Half the size of the page */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reviewPage li ul {
+  padding-left: 20px;
+  text-align: center;
+}
+
+.reviewPage li ul li {
+  padding: 10px;
+  list-style-type: disc;
+  width: fit-content;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.reviewPage button {
+  background-color: #007bff; /* Primary color for the button */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: fit-content; /* Adjusted width to fit content */
+}
+
+.reviewPage button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.reviewPage button:disabled {
+  background-color: #ccc; /* Disabled state color */
+  cursor: not-allowed;
+}
+
+.confirmDialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmDialog p {
+  margin-bottom: 20px;
+}
+
+.confirmDialog button {
+  background-color: #007bff; /* Primary color for the button */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.confirmDialog button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.confirmDialog button:disabled {
+  background-color: #ccc; /* Disabled state color */
+  cursor: not-allowed;
+}

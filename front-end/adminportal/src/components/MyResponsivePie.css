@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+
+  color: #ffffff; /* White text color */
+  height: 100vh;
+  margin: 0;
+}
+
+.PieChart {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #2e3b4e;
+  margin-top: 100px;
+  
+}
+
+.PieChart h2 {
+  text-align: center;
+  color: #ffffff; /* White text color */
+}
+
+.chart-container {
+  height: 400px;
+}

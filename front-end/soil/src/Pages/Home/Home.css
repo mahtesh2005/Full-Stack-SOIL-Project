@@ -1,0 +1,126 @@
+/* Home.css */
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+.home-display-first-section {
+    position: relative;
+    height: 100vh; /* Set height to full viewport height */
+    background-color: #dee9cf;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+  }
+  
+  .home-content-sec-one {
+    position: absolute;
+    top: 50%; /* Place it in the middle vertically */
+    left: 50%; /* Place it in the middle horizontally */
+    transform: translate(-50%, -20%); /* Center it precisely */
+    text-align: center; /* Center text */
+    color: rgb(0, 0, 0);
+  }
+  
+  .home-content-sec-one h2 {
+    font-size: 50px;
+  }
+  
+  .home-content-sec-one h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 65px;
+  }
+  
+  .home-content-sec-one h3 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 70px;
+  }
+  
+  .explore-btn {
+    background-color: antiquewhite; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 25px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+/* Swiper Slider */
+.swiper-container {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+/* About Us Section */
+.about-us-section {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.about-us-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-us-section p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Goals and Values Section */
+.goals-values-section {
+    background-color: #eaeaea;
+    padding: 50px 0;
+}
+
+.goals-values-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.goals-values-section ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.goals-values-section li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+
+.about-us-section img {
+    margin-top: 50px; 
+}
+
+
+.about-us-section p,
+.goals-values-section h2,
+.goals-values-section li {
+    font-size: 20px; 
+}
+
+.about-us-section h2,
+.goals-values-section h2 {
+    font-size: 40px; 
+    margin-top: 0px;
+
+}
+
+.swiper-container {
+    margin-top: 0px; /* Adjust this value based on your NavBar height */
+}

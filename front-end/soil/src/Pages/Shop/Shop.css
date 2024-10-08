@@ -1,0 +1,45 @@
+
+.display-first-section {
+    position: relative;
+    height: 100vh; /* Set height to full viewport height */
+    background-color: #dee9cf;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+}
+
+.content-sec-one {
+    position: absolute;
+    top: 50%; /* Place it in the middle vertically */
+    left: 58%; /* Place it in the middle horizontally */
+    transform: translate(-10%, -50%); /* Center it precisely */
+}
+
+.content-sec-one h2 {
+    font-size: 50px;
+}
+
+.content-sec-one h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 65px;
+}
+
+.content-sec-one h3 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 70px;
+}
+
+.shop-now-btn{
+    background-color: #a4a9a4; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 25px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

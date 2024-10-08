@@ -1,0 +1,93 @@
+.home {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Darker blue background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-box {
+  background-color: #36498f; /* Darker blue background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 150px;
+}
+
+.review-card {
+  width: 400px; /* Increased width for bigger cards */
+  height: 200px;
+  margin: 10px;
+  padding: 20px; /* Increased padding for more spacing inside the card */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #1f2a5e; /* Darker blue background */
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 20px; /* Increased font size for username */
+  color: #fff; /* White text color */
+}
+
+.description {
+  margin-bottom: 10px;
+  font-size: 17px; /* Increased font size for description */
+  color: #fff; /* White text color */
+}
+
+.stars {
+  font-style: italic;
+  color: #cbd5e0; /* textZinc400 */
+  font-size: 20px; /* Increased font size for stars */
+}
+
+.mySwiper {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+}
+
+.BarChart,
+.PieChart {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+
+.BarChart {
+  margin-bottom: 60px;
+}
+
+.chart-container {
+  width: 75%;
+  height: 400px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.axis-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff; /* White text color */
+}

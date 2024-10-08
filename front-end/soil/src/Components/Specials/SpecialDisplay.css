@@ -1,0 +1,31 @@
+.special-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.special-display {
+    
+    margin-top: 10px;
+}
+
+.add {
+    width: 35px;
+    height: 35px; /* Set height to match width for a circular appearance */
+    position: absolute; /* Change position to absolute */
+    top: 65%;
+    left: 50%; /* Adjust the left property to move it further to the right */
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.plus,
+.minus {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transform: translate(170px, -40px); /* Adjust the values as needed */
+  padding: 10px;
+}
+

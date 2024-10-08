@@ -1,0 +1,93 @@
+
+.garden-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.first-des {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    text-align: justify;
+    width: 60%;
+    font-size: 1.1rem;
+}
+
+.garden-1-img,
+.garden-2-img,
+.garden-3-img,
+.garden-4-img,
+.garden-5-img,
+.garden-6-img,
+.garden-7-img {
+
+    display: flex;
+    justify-content: center;
+    width: 120%;
+}
+
+.garden-content-container {
+    background-color: #f2f2f2; /* Grey background color */
+    padding: 20px; /* Add padding for spacing */
+    width: 100%; /* Span across the width of the page */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+
+
+
+.garden-display-first-section {
+    position: relative;
+    height: 100vh;
+    background-color: #dee9cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.garden-content-sec-one {
+    position: absolute;
+    top: 50%; /* Place it in the middle vertically */
+    left: 58%; /* Place it in the middle horizontally */
+    transform: translate(-150%, -35%); /* Center it precisely */
+    color: antiquewhite;
+}
+
+.garden-content-sec-one h2 {
+    font-size: 70px;
+}
+
+.garden-content-sec-one h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.garden-content-sec-one h3 {
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.learn-more-btn {
+    background-color: antiquewhite; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 25px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.hero-text {
+    margin-top: 4.5rem;
+}
+
+

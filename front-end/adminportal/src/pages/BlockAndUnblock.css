@@ -1,0 +1,47 @@
+.block-unblock-userPage {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+}
+
+.block-unblock-h1 {
+  color: #fff; /* White color for the header */
+  border-bottom: 2px solid #ddd; /* Light border to separate the header */
+  padding-bottom: 10px;
+}
+
+.block-unblock-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.block-unblock-li {
+  background-color: #444; /* Darker background for list items */
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd; /* Light border for list items */
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block-unblock-button {
+  background-color: #007bff; /* Primary color for the button */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.block-unblock-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.block-unblock-button:disabled {
+  background-color: #ccc; /* Disabled state color */
+  cursor: not-allowed;
+}

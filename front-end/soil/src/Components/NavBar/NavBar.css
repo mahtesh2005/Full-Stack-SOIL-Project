@@ -1,0 +1,140 @@
+.header {
+  position: relative;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 8px 11px rgba(14, 55, 54, 0.15);
+  padding: 20px 40px; /* Adjusted padding for a thinner navbar */
+  transition: 0.5s;
+  background-color: #fff;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-right: 40px; /* Adjusted margin for smaller spacing */
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+  border-radius: 15rem;
+  font-size: 20px; /* Adjusted font size for smaller text */
+  padding: 12px 20px; /* Adjusted padding for bigger hover effect */
+}
+
+.nav a:hover,
+.nav .Home-active {
+  background-color: lightgreen; /* Change background color on hover */
+}
+
+/* New hover effect specifically for cart item */
+.nav .cart-link:hover {
+  background-color: lightblue; /* Change background color on hover for cart item */
+}
+
+
+.logo {
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem; /* Adjusted font size for smaller logo */
+}
+
+#TopText {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.Profile-image img {
+  width: 36px; /* Adjusted size for smaller profile image */
+  height: 36px; /* Adjusted size for smaller profile image */
+  border-radius: 50%;
+  margin-right: 16px; /* Increased margin for a bigger gap */
+  object-fit: cover;
+  object-position: center;
+}
+
+.nav-logo img,
+.nav img {
+  width: 50px; /* Adjusted size for smaller logo */
+  height: 50px; /* Adjusted size for smaller logo */
+  border-radius: 50%;
+  margin-right: 16px; /* Increased margin for a bigger gap */
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.DropDown-Items {
+  position: relative;
+}
+
+.DropDown-Items ul {
+  display: block;
+  position: absolute;
+  background-color: #f9f9f9;
+  list-style-type: none;
+  min-width: 200px; /* Adjusted width for wider dropdown */
+  padding: 8px 12px; /* Adjusted padding for dropdown items */
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.DropDown-Items ul a {
+  text-decoration: none; /* Remove underline from anchor tags inside dropdown */
+  color: #000; /* Set the color of the links */
+  display: block;
+  padding: 10px 0; /* Adjusted padding for rectangle sections */
+}
+
+.DropDown-Items ul a:hover {
+  background-color: lightgreen; /* Change background color on hover */
+}
+
+.DropDown-Items ul button {
+  text-decoration: none; /* Remove underline from anchor tags inside dropdown */
+  min-width: 200px;
+  color: #000; /* Set the color of the button */
+  display: block;
+  padding: 10px 0; /* Adjusted padding for rectangle sections */
+  border: none; /* Remove border */
+  background-color: transparent; /* Set background color to transparent */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  position: relative; /* Add position relative */
+  left: 50%; /* Adjust horizontal alignment */
+  transform: translateX(-50%); /* Center horizontally */
+}
+
+.DropDown-Items ul button:hover {
+  background-color: lightgreen; /* Change background color on hover */
+}
+
+
+
+
+
+.scrolled {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+}
